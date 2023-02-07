@@ -15,7 +15,7 @@ let package = Package(
             path: "WKYTPlayerView",
             //exclude: ["youtube-player-ios-example", "YoutubePlayer-in-WKWebView.podspec"],
             resources: [
-                .process("WKYTPlayerView.bundle")
+                .copy("WKYTPlayerView.bundle")
             ],
             publicHeadersPath: ".",
             cSettings: [
